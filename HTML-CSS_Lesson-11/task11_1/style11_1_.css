@@ -1,0 +1,32 @@
+ul {
+    width: 650px;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 10px;
+    background: #103056;
+    -webkit-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+}
+
+ul li a span {
+    display: inline-block;
+    -webkit-transform: skewX(20deg);
+        -ms-transform: skewX(20deg);
+            transform: skewX(20deg);
+    font-size: 14px;
+    color: #bccb6f;
+}
+
+ul li a:hover {
+    background: black;
+}
